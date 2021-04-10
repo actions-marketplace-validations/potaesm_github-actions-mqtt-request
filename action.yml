@@ -1,0 +1,30 @@
+name: 'Mqtt Request'
+description: 'Mqtt Request for GitHub Actions'
+inputs:
+  url:
+    description: '`url` is the broker URL'
+    required: true
+  topic:
+    description: '`topic` the topic to publish'
+    required: true
+  payload:
+    description: '`payload` the message to publish'
+    required: true
+  wsOptions:
+    description: '`wsOptions` is the WebSocket connection options'
+    required: false
+  username:
+    description: '`username` the username required by your broker, if any'
+    required: false
+  password:
+    description: '`password` the password required by your broker, if any'
+    required: false
+  connectTimeout:
+    description: '`connectTimeout` milliseconds, time to wait before a CONNACK is received'
+    required: false
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  icon: 'send'
+  color: 'orange'

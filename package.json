@@ -1,0 +1,23 @@
+{
+  "name": "@potaesm/github-actions-mqtt-request",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potaesm/github-actions-mqtt-request.git"
+  },
+  "author": "Suthinan Musitmani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potaesm/github-actions-mqtt-request/issues"
+  },
+  "homepage": "https://github.com/potaesm/github-actions-mqtt-request#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "mqtt": "^4.2.6"
+  }
+}
